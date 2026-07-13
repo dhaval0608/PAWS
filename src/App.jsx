@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { Home, Leaf, Smartphone, Bell, User, QrCode, ArrowLeft, Droplets, Thermometer, Eye, Sun } from 'lucide-react'
-import { Button } from '@/components/ui/button.jsx'
-import { Card, CardContent } from '@/components/ui/card.jsx'
-import { Badge } from '@/components/ui/badge.jsx'
+import { Button } from './components/ui/button.jsx'
+import { Card, CardContent } from './components/ui/card.jsx'
+import { Badge } from './components/ui/badge.jsx'
 import './App.css'
 
 // Mock data for plants
